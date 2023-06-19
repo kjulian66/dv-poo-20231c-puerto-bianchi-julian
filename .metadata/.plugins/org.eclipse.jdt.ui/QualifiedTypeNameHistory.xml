@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="domain.Puerto"/>
+    <fullyQualifiedTypeName name="domain.Amarre"/>
+    <fullyQualifiedTypeName name="domain.Cliente"/>
+    <fullyQualifiedTypeName name="domain.Velero"/>
+    <fullyQualifiedTypeName name="domain.Barco"/>
+    <fullyQualifiedTypeName name="domain.Catamaran"/>
+    <fullyQualifiedTypeName name="domain.Alquiler"/>
+    <fullyQualifiedTypeName name="domain.TipoAnfibio"/>
+    <fullyQualifiedTypeName name="domain.Anfibio"/>
+    <fullyQualifiedTypeName name="domain.Lancha"/>
+    <fullyQualifiedTypeName name="domain.Yate"/>
+    <fullyQualifiedTypeName name="domain.MotoAcuatica"/>
+</qualifiedTypeNameHistroy>

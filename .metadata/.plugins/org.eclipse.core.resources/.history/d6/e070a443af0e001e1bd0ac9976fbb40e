@@ -1,0 +1,10 @@
+package domain;
+
+public class Amarre {
+	
+	//Atributos
+	private Integer idAmarre;
+	private Integer posicion;
+	private Boolean estado;
+	
+}

@@ -1,0 +1,24 @@
+@startuml
+
+class Puerto {
+
+}
+
+abstract Barco {
+
+}
+
+class Amarre {
+
+}
+
+class Cliente {
+
+}
+
+interface tipoAnfibio {
+
+}
+
+
+@enduml

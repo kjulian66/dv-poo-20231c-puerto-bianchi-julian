@@ -1,0 +1,39 @@
+package domain;
+
+public class Anfibio extends Barco implements TipoAnfibio {
+	
+	//Atributos
+	private Double tarifa;
+	private Integer cantidadRuedas;
+	private Integer velocidadTierra;
+	
+	//Constructores	
+	public Anfibio(String matricula, Double eslora, Integer anioFabricacion) {
+		super(matricula, eslora, anioFabricacion);
+	}
+
+	public Anfibio(Integer cantidadRuedas, Integer velocidadTierra) {
+		this();
+		this.cantidadRuedas = cantidadRuedas;
+		this.velocidadTierra = velocidadTierra;
+		this.tarifa = 175.00;
+	}
+
+	
+
+	@Override
+	public Integer cantidadRuedas() {
+		return null;
+	}
+
+	@Override
+	public Integer velocidadTierra() {
+		return null;
+	}
+
+	@Override
+	public Double getTarifa() {
+		return this.tarifa;
+	}
+
+}

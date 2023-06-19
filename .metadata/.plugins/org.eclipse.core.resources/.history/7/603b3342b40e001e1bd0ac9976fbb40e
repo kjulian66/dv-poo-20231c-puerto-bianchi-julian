@@ -1,0 +1,11 @@
+package domain;
+
+public class Yate extends Barco {
+
+	//Constructor
+	public Yate() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,13 @@
+package domain;
+
+public class Velero extends Barco {
+	
+	//Constructor
+	public Velero() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+		
+
+}

@@ -1,0 +1,38 @@
+package domain;
+
+public class Velero extends Barco {
+	
+	//Atributos
+	private String tipo;
+	private Double tarifa;
+	
+	//Constructor
+	public Velero(String matricula, Double eslora, Integer anioFabricacion) {
+		super(matricula, eslora, anioFabricacion);
+		this.tarifa = 100.00;
+		this.tipo = "Velero";
+	}
+	
+	//Getters & Setters
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	public void setTarifa(Double tarifa) {
+		this.tarifa = tarifa;
+	}
+
+
+	//Metodos
+	@Override
+	public Double getTarifa() {
+		return this.tarifa;
+	}
+
+
+	
+}

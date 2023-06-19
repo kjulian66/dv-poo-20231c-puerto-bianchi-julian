@@ -1,0 +1,20 @@
+package domain;
+
+public class MotoAcuatica extends Barco {
+
+	//Atributos
+	private Double tarifa;
+	
+	//Constructor
+	public MotoAcuatica() {
+		super();
+		this.tarifa = 200.00;
+	}
+
+	//Metodos
+	@Override
+	public Double getTarifa() {
+		return this.tarifa;
+	}
+
+}

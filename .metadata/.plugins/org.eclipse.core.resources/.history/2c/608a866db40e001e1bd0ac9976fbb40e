@@ -1,0 +1,11 @@
+package domain;
+
+public class Catamaran extends Barco {
+
+	//Constructor
+	public Catamaran() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+}

@@ -1,0 +1,20 @@
+package domain;
+
+public class Catamaran extends Barco {
+
+	//Atributos
+	private Double tarifa;
+	
+	//Constructor
+	public Catamaran() {
+		super();
+		this.tarifa = 200.00;
+	}
+
+	//Metodos
+	@Override
+	public Double getTarifa() {
+		return this.tarifa;
+	}
+	
+}

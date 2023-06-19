@@ -1,0 +1,15 @@
+package domain;
+
+public abstract class Barco {
+	
+	//Atributos
+	private String tipo;
+	private String matricula;
+	private Double eslora;
+	private Integer anioFabricacion;
+	private Double tarifa;
+	
+	//Metodos
+	public abstract Double getTarifa();
+	
+}

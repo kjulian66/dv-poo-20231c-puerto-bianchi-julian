@@ -1,0 +1,93 @@
+@startuml
+
+class Puerto {
+	- list <Alquiler> Alquileres
+	- list <Amarre> Amarres
+	
+	+ cantidadAmarres()
+	+ cantidadAmarresDisponibles()
+	+ cantidadAmarresOcupados()
+	+ listarAmarres()
+	+ cantidadAlquileres()
+	+ cantidadAlquileresFinalizados()
+	+ cantidadAlquileresEnCurso()
+}
+
+abstract Barco {
+	- String tipo
+	- String matricula
+	- Double eslora
+	- Integer anioFabricacion
+	- Double tarifa
+	
+	+ getTarifa()
+}
+
+class Amarre {
+	- Integer idAmarre
+	- Integer posicion
+	- Boolean estado
+	
+	+ ocuparAmarre()
+	+ desocuparAmarre()
+	
+}
+
+class Alquiler {
+	- Cliente cliente
+	- Integer diaInicial
+	- Integer diaFinal
+	- Amarre amarre
+	- Barco barco
+	- Boolean estado
+	
+	+ iniciarAlquiler() ---> amarre.ocuparAmarre()
+	+ finalizarAlquiler() ---> amarre.desocuparAmarre() setDiaFinal()
+	+ calcularPrecio()
+}
+
+class Cliente {
+	- String nombre
+	- String apellido
+	- Integer dni
+}
+
+interface TipoAnfibio {
+	+ cantidadRuedas()
+	+ velocidadTierra()
+}
+
+class Velero extends Barco {
+	+ getTarifa()
+}
+
+class Yate extends Barco {
+	+ getTarifa()
+}
+
+class Catamaran extends Barco {
+	+ getTarifa()
+}
+
+class Lancha extends Barco {
+	+ getTarifa()
+}
+
+class Anfibio extends Barco implements TipoAnfibio {
+	+ getTarifa()
+	+ cantidadRuedas()
+	+ velocidadTierra()
+}
+
+class MotoAcuatica extends Barco {
+	+ getTarifa()
+}
+
+Puerto <|-- Amarre
+Puerto <|-- Alquiler
+Alquiler <|-- Barco
+Alquiler <|-- Amarre
+Alquiler <|-- Cliente
+
+
+@enduml

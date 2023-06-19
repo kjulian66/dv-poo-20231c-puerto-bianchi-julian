@@ -1,0 +1,27 @@
+package PuertoTest;
+
+import domain.Amarre;
+import domain.Puerto;
+
+public class PuertoTest {
+
+	public static void main(String[] args) {
+		
+		//Instancio Puerto
+		Puerto puerto = new Puerto();
+		
+		//Instancio Amarres
+		Amarre amarre0 = new Amarre();
+		Amarre amarre1 = new Amarre();
+		Amarre amarre2 = new Amarre();
+		Amarre amarre3 = new Amarre();
+		Amarre amarre4 = new Amarre();
+		Amarre amarre5 = new Amarre();
+		Amarre amarre6 = new Amarre();
+		Amarre amarre7 = new Amarre();
+		Amarre amarre8 = new Amarre();
+		Amarre amarre9 = new Amarre();
+
+	}
+
+}

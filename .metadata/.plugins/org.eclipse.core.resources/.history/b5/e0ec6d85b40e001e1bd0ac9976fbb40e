@@ -1,0 +1,11 @@
+package domain;
+
+public class MotoAcuatica extends Barco {
+
+	//Constructor
+	public MotoAcuatica() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

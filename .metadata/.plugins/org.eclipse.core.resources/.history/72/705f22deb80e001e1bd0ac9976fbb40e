@@ -1,0 +1,22 @@
+package domain;
+
+public class Velero extends Barco {
+	
+	//Atributos
+	private String tipo;
+	private Double tarifa;
+	
+	//Constructor
+	public Velero() {
+		super(matricula, tarifa, anioFabricacion);
+		this.tarifa = 100.00;
+		this.tipo = "Velero";
+	}
+
+	//Metodos
+	@Override
+	public Double getTarifa() {
+		return this.tarifa;
+	}
+
+}

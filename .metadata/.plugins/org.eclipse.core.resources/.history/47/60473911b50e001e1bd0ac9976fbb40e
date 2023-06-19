@@ -1,0 +1,14 @@
+package PuertoTest;
+
+import domain.Puerto;
+
+public class PuertoTest {
+
+	public static void main(String[] args) {
+		
+		//Instancio Puerto
+		Puerto puerto = new Puerto();
+
+	}
+
+}

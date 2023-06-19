@@ -1,0 +1,11 @@
+package domain;
+
+public class Lancha extends Barco {
+
+	//Constructor
+	public Lancha() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+}
