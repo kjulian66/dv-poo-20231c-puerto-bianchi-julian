@@ -131,8 +131,6 @@ public class PuertoTest {
 		System.out.println("-----------------------------------LISTADO ALQUILERES-------------------------------------");
 		System.out.println("__________________________________________________________________________________________");
 		puerto.listarAlquileresEnCurso();
-		System.out.println("Alquileres realizados: " + puerto.cantidadAlquileresRealizados());
-		System.out.println("Alquileres en curso: " + puerto.cantidadAlquileresEnCurso());		
 		
 	}
 }

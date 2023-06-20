@@ -35,7 +35,7 @@ public class Puerto {
 	public Integer cantidadAmarresDisponibles() {
 		Integer contador = 0;
 		for (Amarre amarres : Amarres) {
-			if (amarres.getEstado() != true) {
+			if (amarres.getEstado()) {
 				contador += 1;
 			}
 		}

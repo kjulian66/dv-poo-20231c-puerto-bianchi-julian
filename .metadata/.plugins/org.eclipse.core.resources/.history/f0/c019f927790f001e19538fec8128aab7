@@ -101,15 +101,10 @@ public class PuertoTest {
 		System.out.println("-------------------------------------LISTADO AMARRES--------------------------------------");
 		System.out.println("__________________________________________________________________________________________");
 		puerto.listarAmarres();
-		System.out.println("Total amarres: " + puerto.cantidadAmarres());
-		System.out.println("Ammarres ocupados: " + puerto.cantidadAmarresOcupados());
-		System.out.println("Amarres disponibles: " + puerto.cantidadAmarresDisponibles());
 		System.out.println("__________________________________________________________________________________________");
 		System.out.println("-----------------------------------LISTADO ALQUILERES-------------------------------------");
 		System.out.println("__________________________________________________________________________________________");
 		puerto.listarAlquileresEnCurso();
-		System.out.println("Alquileres realizados: " + puerto.cantidadAlquileresRealizados());
-		System.out.println("Alquileres en curso: " + puerto.cantidadAlquileresEnCurso());		
 		
 		//Finalizo algunos alquileres indicando el dia final
 		System.out.println("__________________________________________________________________________________________");
@@ -124,15 +119,10 @@ public class PuertoTest {
 		System.out.println("-------------------------------------LISTADO AMARRES--------------------------------------");
 		System.out.println("__________________________________________________________________________________________");
 		puerto.listarAmarres();
-		System.out.println("Total amarres: " + puerto.cantidadAmarres());
-		System.out.println("Ammarres ocupados: " + puerto.cantidadAmarresOcupados());
-		System.out.println("Amarres disponibles: " + puerto.cantidadAmarresDisponibles());
 		System.out.println("__________________________________________________________________________________________");
 		System.out.println("-----------------------------------LISTADO ALQUILERES-------------------------------------");
 		System.out.println("__________________________________________________________________________________________");
 		puerto.listarAlquileresEnCurso();
-		System.out.println("Alquileres realizados: " + puerto.cantidadAlquileresRealizados());
-		System.out.println("Alquileres en curso: " + puerto.cantidadAlquileresEnCurso());		
 		
 	}
 }

@@ -107,9 +107,8 @@ public class PuertoTest {
 		System.out.println("__________________________________________________________________________________________");
 		System.out.println("-----------------------------------LISTADO ALQUILERES-------------------------------------");
 		System.out.println("__________________________________________________________________________________________");
-		puerto.listarAlquileresEnCurso();
-		System.out.println("Alquileres realizados: " + puerto.cantidadAlquileresRealizados());
-		System.out.println("Alquileres en curso: " + puerto.cantidadAlquileresEnCurso());		
+		puerto.listarAlquileresEnCurso();	
+		
 		
 		//Finalizo algunos alquileres indicando el dia final
 		System.out.println("__________________________________________________________________________________________");
@@ -131,8 +130,6 @@ public class PuertoTest {
 		System.out.println("-----------------------------------LISTADO ALQUILERES-------------------------------------");
 		System.out.println("__________________________________________________________________________________________");
 		puerto.listarAlquileresEnCurso();
-		System.out.println("Alquileres realizados: " + puerto.cantidadAlquileresRealizados());
-		System.out.println("Alquileres en curso: " + puerto.cantidadAlquileresEnCurso());		
 		
 	}
 }
